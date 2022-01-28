@@ -1,0 +1,30 @@
+.hd__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.hd__brand .hd__brand-name{
+    flex: 1;
+    max-width: 250px;
+    min-width: 120px;
+    margin: 1rem;
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hd__brand-name h3, h2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+.hd__brand-name h4 {
+    color: rgba(255, 255, 255, 0.4);
+}
+.section__padding-2 {
+    padding: 80px 100px 0px 100px;
+}
